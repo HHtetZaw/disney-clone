@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: 200;
+  line-height: 1.5;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: hsl(228, 22.4%, 13.1%);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%;
+}
+
+a{
+  font-weight: 500;
+  text-decoration: inherit;
+}
+
+a:hover{
+  color: #714681;
+}
